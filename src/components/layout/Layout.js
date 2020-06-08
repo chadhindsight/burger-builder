@@ -1,6 +1,7 @@
 import React from 'react';
 import Aux from "../../hoc/Aux";
-import classes from './Layout.css'
+// This is the new way to import css modules
+import classes from './Layout.module.css'
 
 const Layout = (props) => {
     return (
